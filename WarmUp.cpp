@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
 	// assuming there are less than 100 numbers, and range= (1,1000);
+	// complexity is O(n) using count sort.
 	int arr[100],n, count[1000]={0};
 	cin>>n;
 	for(int i=0;i<n;i++)
